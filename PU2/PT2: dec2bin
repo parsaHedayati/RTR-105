@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    char a, c, k;
+
+  printf("Dear user pleas enter an char in decimal number system: \a");
+  scanf("%c", &a);
+
+  printf("%d in binary number system is:\a", a);
+
+  for (c = 31; c >= 0; c--)
+  {
+    k = a >> c;
+
+    if (k & 1)
+      printf("1");
+    else
+      printf("0");
+  }
+
+  printf("\a");
+
+  return 0;
+}
