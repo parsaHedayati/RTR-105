@@ -1,0 +1,93 @@
+#include <stdio.h>
+
+int
+main ()
+{
+  int a, b;
+  int aa, ab, ac;
+  char c1, c2, c3;
+  long long int la, lb, lc;
+  aa = ab = ac = 1;
+  c1 = c2 = c3 = 1;
+  la = lb = lc = 1;
+  printf ("please enter the decimal number you want to factorilise:");
+  scanf (" %i", &a);
+  if (a < 0)
+    {
+      printf ("Please enter a postive number");
+      return main ();
+    }
+  printf
+    ("please select the data type you want\n1-int:\n2-char:\n3-long long int:\nselect: ");
+  scanf (" %i", &b);
+  switch (b)
+    {
+    case 1:
+      for (ac = 2; ac <= a; ac++)
+	{
+	  aa = aa * ac;
+	  ab = ab * (ac - 1);
+	  if ((aa / ac) == (ab))
+	    {
+
+	    }
+	  else
+	    {
+	      printf
+		("\nunable to calculate factorial of %i with selected data type\n",
+		 a);
+	      return 0;
+	    }
+
+
+	}
+      printf ("\nyour factorial = %i\n", a, aa);
+      break;
+    case 2:
+      for (c3 = 2; c3 <= a; c3++)
+	{
+	  c1 = c1 * c3;
+	  c2 = c2 * (c3 - 1);
+	  if ((c1 / c3) == (c2))
+	    {
+	    }
+	  else
+	    {
+	      printf
+		("\nunable to calculate factorial of %i with selected data type\n",
+		 a);
+	      return 0;
+	    }
+	}
+      printf ("\nyour factorial = %d\n", a, c1);
+      break;
+    case 3:
+      for (lc = 2; lc <= a; lc++)
+	{
+	  la = la * lc;
+	  lb = lb * (lc - 1);
+	  if ((la / lc) == (lb))
+	    {
+	    }
+	  else
+	    {
+
+	      printf
+		("\nunable to calculate factorial of %i with selected data type\n",
+		 a);
+	      return 0;
+	    }
+
+	}
+
+      printf ("\nyour factorial= %lli\n", a, la);
+
+      break;
+
+    default:
+      printf ("user selected invalid data type\n");
+      return 0;
+    }
+
+  return 0;
+}
