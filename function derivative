@@ -15,12 +15,12 @@ void main()
      fptr = fopen("derivative.dat","a+");
     x = a;
    while(x < b){
-    fprintf(fptr,"%f\t",x);
-    fprintf(fptr,"%lf\t",asin(x));//value of for(x)
-    fprintf(fptr,"%lf",(1 / sqrt(1 - (x *x))));//analytical value for asin(x)'= 1 / sqrt(1- x * x)
-    fprintf(fptr,"%lf",(asin(x + delta_x) - asin(x)) / delta_x);//forward diffrence for asin(x)
-    fprintf(fptr,"%lf",x /pow(1 - (x * x),1.5));//analytical value for arcsin(x)''= (x/((1-x^2)^(3/2))
-    fprintf(fptr,"%lf/n",(asin(x) - (2 * asin(x + delta_x)) + asin(x + 2 *delta_x)) / pow(delta_x,2));//forward diffrence 
+    fprintf(fptr,"     %f",x);
+    fprintf(fptr,"  %lf",asin(x));//value of for(x)
+    fprintf(fptr,"      %lf",(1 / sqrt(1 - (x *x))));//analytical value for asin(x)'= 1 / sqrt(1- x * x)
+    fprintf(fptr,"      %lf",(asin(x + delta_x) - asin(x)) / delta_x);//forward diffrence for asin(x)
+    fprintf(fptr,"      %lf",x /pow(1 - (x * x),1.5));//analytical value for arcsin(x)''= (x/((1-x^2)^(3/2))
+    fprintf(fptr,"   %lf\n",(asin(x) - (2 * asin(x + delta_x)) + asin(x + 2 *delta_x)) / pow(delta_x,2));//forward diffrence 
    x = x + delta_x;
     }
    
