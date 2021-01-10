@@ -1,0 +1,34 @@
+#include <stdio.h> 
+ 
+int main() 
+{ int n; 
+    printf("How many charachters and numbers you want to sort?");
+    scanf("%d",&n);
+    int i,arr[n],temp,swapped; 
+ 
+    printf("Enter n elements:\n"); 
+    for(i=0;i<n;++i) 
+        scanf("%d",&arr[i]); 
+ 
+    for(i=0;i<n;++i){ 
+ arr[i] = arr[i];}
+ printf("orginal list\n");
+ for(i=0;i<n;++i){
+     printf("%d\n",arr[i]);
+ }
+ while(1){
+     swapped = 0;
+     for(i=0;i < n - 1;++i){
+         if(arr[i]>arr[i+1]){
+             int temp = arr[i];
+             arr[i] = arr[i+1];
+             arr[i+1] = temp;
+             swapped = 1;
+         }
+     }if(swapped == 0){ break;}
+ }
+ printf("sorted list\n");
+ for(i=0;i<n;++i){
+     printf("%d\n",arr[i]);}
+    return 0; 
+} 
