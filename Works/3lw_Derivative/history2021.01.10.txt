@@ -1,0 +1,12 @@
+    1  clear
+    2  ls -lt
+    3  gcc derivative.dat
+    4  gcc derivative.dat -o derivative -lm
+    5  gcc derivative.c -o derivative -lm
+    6  gcc  Derivative.c -o Derivative -lm
+    7  ./Derivative
+    8  ls -lt
+    9  strings derivative.dat
+   10  touch README.md
+   11  history>history
+   12  history>history2021.01.10.txt

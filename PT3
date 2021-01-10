@@ -1,0 +1,107 @@
+#include <stdio.h>
+
+
+
+int main()
+{
+      int a, b, c;
+ int G;
+  printf ("\nInput the first integer: ");
+  scanf ("%d", &a);
+  printf ("\nInput the second integer: ");
+  scanf ("%d", &b);
+  printf ("\nInput the third integer: ");
+  scanf ("%d", &c);
+  printf("Dear user if you want to see the entered numbers from greater to lower enter 1\nAnd if you wnat to see the numbers from lower to greater enter 2:\n" );
+  scanf("%d", &G);
+  switch(G){
+      case 1:
+     if (G)
+    {
+      if (a > b && b > c)
+	{
+	  printf ("First:%d", a);
+	  printf ("Second::%d", b);
+	  printf("Third:%d", c);
+
+	}
+	 if (a > c && c > b)
+	{
+	  printf ("First:%d", a);
+	  printf ("Second:%d", c);
+	  printf("Third:%d", b);
+	} 
+      if (b > a && a > c)
+	{
+printf("First:%d", b);
+printf("Second:%d", a);
+printf("Third:%d", c);
+	}
+	  if (b > c && c > a)
+	{
+printf("First:%d", b);
+printf("Second:%d", c);
+printf("Third:%d", a);
+	}
+	if(c > b && b > a)
+	{
+	         
+printf("First:%d", c);
+printf("Second:%d", b);
+printf("Third:%d", a);
+	}
+		if(c > b && a > b)
+	{
+	         
+printf("First:%d", c);
+printf("Second:%d", a);     
+printf("Third:%d", b);
+	}
+}  
+break;
+ case 2:
+ if(G)
+ {
+         if (a > b && b > c)
+	{
+	  printf ("First:%d", c);
+	  printf ("Second:%d", b);
+	  printf("Third:%d", a);
+
+	}
+	 if (a > c && c > b)
+	{
+	  printf ("First:%d", b);
+	  printf ("Second%d", c);
+	  printf("Third:%d", a);
+	} 
+      if (b > a && a > c)
+	{
+printf("Firast:%d", c);
+printf("Second%d", a);
+printf("Third:%d", b);
+	}
+	  if (b > c && c > a)
+	{
+printf("First:%d", a);
+printf("Seccond:%d", c);
+printf("Third:%d", b);
+	}
+	if(c > b && b > a)
+	{
+	         
+printf("First:%d", a);
+printf("Second:%d", b);
+printf("Third:%d", c);
+	}
+		if(c > b && a > b)
+	{
+	         
+printf("First:%d", b);
+printf("Second:%d", a);     
+printf("Third%d", c);  
+ }
+  }
+  break;}
+return 0;
+}

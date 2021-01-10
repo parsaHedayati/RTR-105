@@ -1,0 +1,14 @@
+lease enter the initial limit:
+-0.8
+please enter the final limit:
+0.7
+please enter the precision value:
+0.0001
+Please enter the number of sub intervals:
+2
+integral value by rectangle Rule is:
+-0.084891
+The integral by simpson's Rule is:
+-0.084916
+integral by trapezoidal Rule is:
+-0.084964

@@ -1,0 +1,234 @@
+    1  tty7
+    2  ls
+    3  echo $0
+    4  whoami
+    5  who
+    6  mkdir
+    7  man mkdir
+    8  ls -la
+    9  mkdir
+   10  man mkdir
+   11  mkdir ABC
+   12  man mkdir
+   13  mkdir ABC
+   14  ABC
+   15  man mkdir
+   16  mkdir ABC
+   17  ls downloads/
+   18  ls -lt
+   19  ls Downloads
+   20  echo $?
+   21  nano a.sh
+   22  NANO a.sh
+   23  nano a.sh
+   24  pwd
+   25  echo $?
+   26  ls -lt
+   27  echo $?
+   28  ls Downloads/
+   29  echo $?
+   30  ls Download/
+   31  echo $?
+   32  nano a.sh
+   33  ls -lt
+   34  ./a.sh
+   35  echo $?
+   36  ./b.sh
+   37  echo $?
+   38  git
+   39  #install
+   40  echo $?
+   41  git
+   42  # apt-get install git
+   43  git
+   44  sudo apt install git
+   45  parsaKimia1377
+   46  sudo apt install git
+   47  git
+   48  git clone https://github.com/parsaHedayati/RTR-105
+   49  ls -lt
+   50  ls -lta
+   51  cd .git
+   52  cd .
+   53  pwd
+   54  cd .cache
+   55  ~
+   56  cd ~
+   57  pwd
+   58  git clone https://github.com/parsaHedayati/RTR-105
+   59  git clone https://github.com/parsaHedayati/RTR-105 RtR-105 new
+   60  ls -lt
+   61  RTR-105
+   62  mv RTR-105 / RTR-105_old
+   63  mv RTR-10 / RTR-105_old
+   64  ls -lt
+   65  RTR-105
+   66  git clone https://github.com/parsaHedayati/RTR-105
+   67  mv RTR-105/ RTR-105_old
+   68  mv RTR-105/ RTR-105_old/
+   69  ls -lt
+   70  git clone https://github.com/parsaHedayati/RTR-105
+   71  ls -lt
+   72  cd RTR-105
+   73  mkdir GCC
+   74  cd GCC/
+   75  nano code.sh
+   76  nano code.c
+   77  ls -lt
+   78  cat code.sh
+   79  cat code.c
+   80  pwd
+   81  path
+   82  sudo apt install
+   83  path
+   84  sudo aot install patch
+   85  sudo aot install 2
+   86  patch
+   87  rm -r RTR-105
+   88  ls -lt
+   89  rm -rf/RTR-105
+   90  rmRTR-105
+   91  rm RTR-105
+   92  rmdir RTR-105
+   93  /RTR-105
+   94  RTR-105
+   95  cd RTR-105
+   96  ls -lt
+   97  rmdir RTR-105
+   98  cd
+   99  `
+  100  /$
+  101  $
+  102  $?
+  103  ls -lt
+  104  rm -rf directory-works
+  105  ls -lt
+  106  rm directory-works
+  107  rmdir directory-works
+  108  rm -rf/directory-works
+  109  rm directory-works
+  110  mkdir Works
+  111  cd works
+  112  ls -lt
+  113  $?
+  114  /works
+  115  -c
+  116  clear
+  117  ls -lt
+  118  cd works
+  119  cd /works
+  120  /works
+  121  cd RTR-105
+  122  /RTR-105
+  123  $?
+  124  ls -l
+  125  ls -lt
+  126  ?
+  127  where am i
+  128  where am i ?
+  129  where am I?
+  130  who am I?
+  131  whoami?
+  132  <deb name>
+  133  cd RTR-105
+  134  cd Works
+  135  ls -lt
+  136  mkdir 1lw_Series
+  137  cd 1lw_Series
+  138  nano
+  139  NANO SEREIS
+  140  NANO
+  141  nano
+  142  cd RTR-105
+  143  cd Works'
+  144  ~
+  145  `
+  146  `
+  147  cd ~
+  148  exit
+  149  -c
+  150  history
+  151  `
+  152  ~
+  153  \
+  154  -
+  155  sa.ascd;lvdfk
+  156  dfko
+  157  lfm,dsl
+  158  cd RTR-105
+  159  cd Works
+  160  cd 3lw_Derivative
+  161  nano Derivative.c
+  162  gcc Derivative.c -o Derivative -lm
+  163  ./Derivative
+  164  ls -lt
+  165  derivative.dat
+  166  ./a.out
+  167  gcc derivative.dat
+  168  gcc derivative.dat 
+  169  ./a.out
+  170  gcc Derivative.c -o Derivative -lm
+  171  ./a.out
+  172  ./derivative.dat
+  173  $?
+  174  cd derivative.dat
+  175  xxd
+  176  cd
+  177  cd RTR-05
+  178  cd RTR-105
+  179  cd Works
+  180  cd 4lw_Integral
+  181  nano Integral.c
+  182  gcc Integral.c -o Integral -lm
+  183  nano Integral.c
+  184  ls -lt
+  185  cd RTR-105
+  186  cd Works
+  187  cd 4lw_Integral
+  188  nano Integral.c
+  189  gcc integral.c -o Integral -lm
+  190  gcc Integral.c -o Integral -lm
+  191  ./Integral
+  192  touch README-md
+  193  history>history-2021.01.10
+  194  ls -lt
+  195  cd
+  196  cd RTR-105
+  197  cd Works
+  198  cd 4kl_Integral
+  199  cd 4lw_Integral
+  200  cd
+  201  cd RTR-105
+  202  git remote add orgin https://github.com/ParsaHedayati/RTR-105.git
+  203  git init
+  204  git add .
+  205  git commit -m "upload"
+  206  git remote add orgin https://github.com/ParsaHedayati/RTR-105
+  207  git push orgin master 
+  208  git init
+  209  ls -lt
+  210  git init
+  211  git add .
+  212  git commit-m
+  213  git commit -m
+  214  git commit -m "uploaded"
+  215  git remote add orgin https://github.com/ParsaHedayati/RTR-105
+  216  git pull orgin master
+  217  git push orgin master
+  218  -clear
+  219  clear
+  220  cd RTR-105
+  221  git add['RTR-105']
+  222  git add [RTR-105]
+  223  git config --global user.email parsahd95@gmail.com
+  224  gif add .
+  225  git add .
+  226  git commit -m "2021_01_10"
+  227  git push orgin master
+  228  git init
+  229  ls -lt
+  230  cd ./git
+  231  history>history(upload)
+  232  history>history upload
+  233  history > history upload
+  234  history> historyupload.txt
