@@ -23,3 +23,10 @@ x = (0.020215)	 asin(0.020216)	asin(0.020215)= 0.020216
 32780 steps :asin(0.019873)=-0.543599
 x = (0.020044)	 asin(0.020045)	asin(0.020044)= 0.020045
 The root is x = 0.019958,asin(x)= -0.000040
+gnuplot> plot (asin(x)*(x))+sqrt(1-x*x))
+                                       ^
+         unexpected or unrecognized token: )
+
+gnuplot> plot asin(x)-0.02
+gnuplot>
+![Screenshot (60)](https://user-images.githubusercontent.com/72393420/104211859-43abc180-543d-11eb-9d01-79c256b9ccdf.png)
