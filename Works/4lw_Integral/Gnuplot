@@ -1,0 +1,52 @@
+
+        G N U P L O T
+        Version 5.4 patchlevel 1    last modified 2020-12-01
+
+        Copyright (C) 1986-1993, 1998, 2004, 2007-2020
+        Thomas Williams, Colin Kelley and many others
+
+        gnuplot home:     http://www.gnuplot.info
+        faq, bugs, etc:   type "help FAQ"
+        immediate help:   type "help"  (plot window: hit 'h')
+
+Terminal type is now 'qt'
+Encoding set to 'default'.
+gnuplot> plot asin(x)*x+(1-x*x)^(1/2)
+         non-integer passed to boolean operator
+
+gnuplot> plot asin(x)*(x+sqrt(1-x*x))
+gnuplot> set xrang[-1,1]
+                     ^
+         ':' or keyword 'to' expected
+
+gnuplot> set xrang [-1,1]
+                      ^
+         ':' or keyword 'to' expected
+
+gnuplot> set xrang [-1:1]
+gnuplot> set yrang [-1:1]
+gnuplot> plot (asin(x)*(x))+sqrt(1-x*x))
+
+gnuplot> plot (asin(x)*(x))+sqrt(1-x*x))
+                                       ^
+         unexpected or unrecognized token: )
+
+gnuplot> set yrang [-10:10]
+gnuplot> set xrang [-10:10]
+gnuplot> plot (asin(x)*(x))+sqrt(1-x*x))
+
+gnuplot> plot (asin(x)*(x))+sqrt(1-x*x))
+                                       ^
+         unexpected or unrecognized token: )
+
+gnuplot> set xrang [--2:2]
+gnuplot> set xrang [-2:2]
+gnuplot> set yrang [-2:2]
+gnuplot> plot (asin(x)*(x))+sqrt(1-x*x))
+
+gnuplot> plot (asin(x)*(x))+sqrt(1-x*x))
+                                       ^
+         unexpected or unrecognized token: )
+
+gnuplot>
+![Screenshot (59)](https://user-images.githubusercontent.com/72393420/104211018-3b9f5200-543c-11eb-917e-53cf6a97df7c.png)
